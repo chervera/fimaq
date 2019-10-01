@@ -1,0 +1,38 @@
+:root {
+    --color-1: #0094FF;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h1 {
+    color: var(--color-1);
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+.section{
+    box-sizing: border-box;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15%;
+    background: url(../img/foto_header_portada.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.home .h1 {
+    text-align: center;
+}
+
+.home__logo{
+    width: 380px;
+    margin-bottom: 35px;
+}
