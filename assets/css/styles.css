@@ -1,5 +1,11 @@
 :root {
     --color-1: #0094FF;
+    --color-2: #00FFC9;
+
+    --distance-s: 8px;
+    --distance-m: 16px;
+    --distance-l: 32px;
+    --distance-xl: 64px;
 }
 
 body {
@@ -8,19 +14,20 @@ body {
 
 .h1 {
     color: var(--color-1);
-    font-size: 58px;
+    font-size: 24px;
     font-weight: 600;
-    line-height: 90px;
+    line-height: 36px;
 }
 
-.h2{
+.h2 {
     color: #fff;
     margin: 0;
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 100;
 }
 
-.section{
+.section {
     box-sizing: border-box;
 }
 
@@ -37,15 +44,15 @@ body {
 
 .home .h1 {
     text-align: center;
-    margin-bottom: 55px;
+    margin-bottom: 105px;
 }
 
-.home__logo{
-    width: 380px;
-    margin-bottom: 35px;
+.home__logo {
+    width: 150px;
+    margin-bottom: 25px;
 }
 
-.home::after{
+.home::after {
     background: url('../img/home_bottom.svg') no-repeat;
     content: ' ';
     height: 50px;
@@ -53,24 +60,52 @@ body {
     position: absolute;
 }
 
-.subhome{
+.subhome {
     background: var(--color-1);
     text-align: center;
-    padding: 64px 32px;
-    
+    padding: var(--distance-xl) var(--distance-l);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.subhome .h2{
-    max-width: 150px;
+.subhome .h2 {
+    max-width: 300px;
+    margin-bottom: var(--distance-l);
 }
 
-.slide-products{
+.subhome__description {
+    color: #fff;
+    line-height: 26px;
+    font-weight: 100;
+    max-width: 262px;
+    margin-bottom: var(--distance-xl);
+}
+
+.subhome__cta {
+    color: var(--color-2);
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: var(--distance-m);
+}
+
+.subhome__button{
+    border: 1px solid var(--color-2);
+    padding: var(--distance-s) var(--distance-xl) 12px var(--distance-xl);
+    border-radius: 35px;
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--color-2);
+}
+
+.slide-products {
     position: relative;
     height: 150px;
     display: block;
     padding-top: 50px;
 }
-.slide-products::before{
+
+.slide-products::before {
     background: url('../img/subhome_bottom.svg') no-repeat;
     content: ' ';
     height: 50px;
