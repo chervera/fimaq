@@ -13,6 +13,13 @@ body {
     line-height: 90px;
 }
 
+.h2{
+    color: #fff;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 300;
+}
+
 .section{
     box-sizing: border-box;
 }
@@ -23,13 +30,14 @@ body {
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 15%;
     background: url(../img/foto_header_portada.jpg) no-repeat center top;
     background-size: cover;
+    position: relative;
 }
 
 .home .h1 {
     text-align: center;
+    margin-bottom: 55px;
 }
 
 .home__logo{
@@ -37,6 +45,20 @@ body {
     margin-bottom: 35px;
 }
 
+.home::after{
+    background: url('../img/home_bottom.svg') no-repeat;
+    content: ' ';
+    height: 50px;
+    width: 100%;
+    position: absolute;
+}
+
 .subhome{
     background: var(--color-1);
+    text-align: center;
+    padding: 64px 32px;
+}
+
+.subhome .h2{
+    max-width: 150px;
 }
