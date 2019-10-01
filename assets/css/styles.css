@@ -57,8 +57,24 @@ body {
     background: var(--color-1);
     text-align: center;
     padding: 64px 32px;
+    
 }
 
 .subhome .h2{
     max-width: 150px;
+}
+
+.slide-products{
+    position: relative;
+    height: 150px;
+    display: block;
+    padding-top: 50px;
+}
+.slide-products::before{
+    background: url('../img/subhome_bottom.svg') no-repeat;
+    content: ' ';
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
