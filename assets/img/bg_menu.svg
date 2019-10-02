@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1830px" height="120px" viewBox="0 0 1830 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
-    <title>bg_menu</title>
-    <desc>Created with Sketch.</desc>
+<svg viewBox="0 0 1830 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  preserveAspectRatio="none">
     <g id="bg_menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <path d="M0,76.8926417 C262.020722,105.630881 536.719865,120 824.097431,120 C1111.475,120 1446.77585,95.7490953 1830,47.2472859 L1829.4963,0 L0,0 L0,76.8926417 Z" id="Path-6" fill="#FFFFFF" transform="translate(915.000000, 60.000000) scale(-1, 1) translate(-915.000000, -60.000000) "></path>
     </g>
