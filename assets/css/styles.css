@@ -65,7 +65,7 @@ strong {
     background: url('../img/menu_top.svg') no-repeat;
     content: ' ';
     height: 50px;
-    width: 100%;
+    width: 101%;
     position: absolute;
     top: -8px;
     z-index: -1;
