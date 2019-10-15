@@ -1088,6 +1088,10 @@ strong {
         z-index: 5;
     }
 
+    .menu--visible.menu ul{
+        bottom: auto;
+    }
+
     .menu-button {
         display: none;
     }
