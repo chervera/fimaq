@@ -701,6 +701,7 @@ strong {
     align-content: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
 }
 
 .home-service::after {

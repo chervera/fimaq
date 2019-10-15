@@ -18,7 +18,7 @@
     const homepageSectionSize = homepageSection.clientHeight;
     const serviceCleanerSectionSize = serviceCleanerSection && serviceCleanerSection.clientHeight;
     const serviceCleanerSectionTop = serviceCleanerSection && serviceCleanerSection.offsetTop;
-    const MARGIN_TO_START_MOVEMENT = window.innerHeight;
+    const MARGIN_TO_START_MOVEMENT = window.innerHeight < window.innerWidth ? window.innerHeight : (window.innerWidth*0.5);
 
 const init = () =>{
     menuButton.addEventListener('click', function (event) {
@@ -65,10 +65,15 @@ const init = () =>{
     }
 
     const checkServeis = (scrollPos) => {
-        if(scrollPos > (serviceCleanerSectionTop - MARGIN_TO_START_MOVEMENT) && scrollPos < (serviceCleanerSectionTop + serviceCleanerSectionSize)){
+        console.log('---');
+        console.log(MARGIN_TO_START_MOVEMENT);
+        console.log(scrollPos);
+        console.log(`scrollPos[${scrollPos}] > [${serviceCleanerSectionTop-MARGIN_TO_START_MOVEMENT}](serviceCleanerSectionTop[${serviceCleanerSectionTop}] - MARGIN[${MARGIN_TO_START_MOVEMENT}])`);
+        if(scrollPos > (serviceCleanerSectionTop - MARGIN_TO_START_MOVEMENT) && scrollPos < ((serviceCleanerSectionTop - MARGIN_TO_START_MOVEMENT) + serviceCleanerSectionSize)){
             let computedLeft = scrollPos - serviceCleanerSectionTop + MARGIN_TO_START_MOVEMENT;
             aspirador.style.left = computedLeft + 'px';
             terra.style.left = computedLeft + 'px';
+            console.log('left:' + computedLeft );
         }
     }
 
