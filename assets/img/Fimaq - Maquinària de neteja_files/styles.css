@@ -954,7 +954,7 @@ strong {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-content: center;
     justify-content: center;
     position: relative;
     overflow: hidden;
@@ -973,14 +973,14 @@ strong {
 .home-contact .h1 {
     color: #fff;
     font-size: 42px;
-    margin-bottom: var(--distance-xl);
+    margin-bottom: var(--distance-l);
 }
 
 .home-contact__description {
     color: #fff;
     font-size: 24px;
     font-weight: 300;
-    margin-bottom: var(--distance-xl);
+    margin-bottom: var(--distance-l);
 }
 
 .contact__container{
@@ -988,44 +988,15 @@ strong {
     color: #fff;
     text-align: left;
     display: inline-block;
-    width: 250px;
+    border: 1px solid red;
+    width: 200px;
 }
 .contact__title{
     display: block;
-    margin-bottom: var(--distance-s);
 }
 
-.contact_description{
-    color: #fff;
-    font-size: 24px;
-    margin-bottom: var(--distance-l);
-    display: block;
-    text-decoration: none;
-}
+.contact__description{
 
-.section__frase {
-    background: var(--color-5);
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    padding: var(--distance-xxl) var(--distance-m);
-}
-
-.section__frase::after {
-    background: url('../img/slide-products_bottom.svg') no-repeat;
-    content: ' ';
-    height: 14%;
-    width: 150%;
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-}
-
-.frase {
-    color: var(--color-1);
-    font-size: 42px;
-    margin-bottom: var(--distance-l);
-    font-weight: 400;
 }
 
 /* -------------------------------------------MEDIA QUERY 480 - MOBIL HORITZONTAL----------------------------------------------*/
