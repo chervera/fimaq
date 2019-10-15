@@ -67,7 +67,8 @@ strong {
     height: 50px;
     width: 100%;
     position: absolute;
-    top: -50px;
+    top: -8px;
+    z-index: -1;
 }
 
 .menu--visible.menu ul {
