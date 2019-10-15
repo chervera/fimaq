@@ -747,7 +747,7 @@ strong {
 }
 
 .service-cleaner {
-    background: url('/assets/img/blur.gif') fixed;
+    background: url('../img/blur.gif') fixed;
     padding: var(--distance-xxxl) 0;
     overflow: hidden;
     position: relative;
@@ -779,7 +779,7 @@ strong {
     height: 100%;
     position: absolute;
     width: 3000px;
-    background: url('/assets/img/serveis_aspiradora.svg');
+    background: url('../img/serveis_aspiradora.svg');
     z-index: 3;
 }
 
@@ -789,7 +789,7 @@ strong {
     height: 100%;
     position: absolute;
     width: 100%;
-    background: url('/assets/img/blur.gif') fixed;
+    background: url('../img/blur.gif') fixed;
     z-index: 2;
 }
 

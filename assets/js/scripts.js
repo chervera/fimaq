@@ -65,10 +65,10 @@ const init = () =>{
     }
 
     const checkServeis = (scrollPos) => {
-        console.log('---');
+        /*console.log('---');
         console.log(MARGIN_TO_START_MOVEMENT);
         console.log(scrollPos);
-        console.log(`scrollPos[${scrollPos}] > [${serviceCleanerSectionTop-MARGIN_TO_START_MOVEMENT}](serviceCleanerSectionTop[${serviceCleanerSectionTop}] - MARGIN[${MARGIN_TO_START_MOVEMENT}])`);
+        console.log(`scrollPos[${scrollPos}] > [${serviceCleanerSectionTop-MARGIN_TO_START_MOVEMENT}](serviceCleanerSectionTop[${serviceCleanerSectionTop}] - MARGIN[${MARGIN_TO_START_MOVEMENT}])`);*/
         if(scrollPos > (serviceCleanerSectionTop - MARGIN_TO_START_MOVEMENT) && scrollPos < ((serviceCleanerSectionTop - MARGIN_TO_START_MOVEMENT) + serviceCleanerSectionSize)){
             let computedLeft = scrollPos - serviceCleanerSectionTop + MARGIN_TO_START_MOVEMENT;
             aspirador.style.left = computedLeft + 'px';
