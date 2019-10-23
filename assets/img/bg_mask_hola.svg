@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="792px" height="357px" viewBox="0 0 792 357" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>bg_mask_hola</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="792" height="357"></rect>
+    </defs>
+    <g id="bg_mask_hola" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-2)" stroke="#0444A0" stroke-linecap="square">
+                <g transform="translate(-200.000000, -421.000000)">
+                    <path d="M-116.64619,308.585221 L729.87201,308.686069" id="Line-2" transform="translate(306.612910, 308.635645) rotate(-45.000000) translate(-306.612910, -308.635645) "></path>
+                    <path d="M184.61497,611.323142 L1031.13317,611.42399" id="Line-2-Copy" transform="translate(607.874070, 611.373566) rotate(-45.000000) translate(-607.874070, -611.373566) "></path>
+                    <path d="M-123.616243,300.068297 L722.901957,300.169145" id="Line-2" transform="translate(299.642857, 300.118721) rotate(-45.000000) translate(-299.642857, -300.118721) "></path>
+                    <path d="M177.644918,602.806218 L1024.16312,602.907066" id="Line-2-Copy-2" transform="translate(600.904018, 602.856642) rotate(-45.000000) translate(-600.904018, -602.856642) "></path>
+                    <path d="M-108.901687,316.327879 L737.616512,316.428727" id="Line-2" transform="translate(314.357413, 316.378303) rotate(-45.000000) translate(-314.357413, -316.378303) "></path>
+                    <path d="M192.359473,619.065799 L1038.87767,619.166647" id="Line-2-Copy-3" transform="translate(615.618573, 619.116223) rotate(-45.000000) translate(-615.618573, -619.116223) "></path>
+                    <path d="M-101.157184,324.070537 L745.361015,324.171385" id="Line-2" transform="translate(322.101915, 324.120961) rotate(-45.000000) translate(-322.101915, -324.120961) "></path>
+                    <path d="M200.103976,626.808457 L1046.62218,626.909305" id="Line-2-Copy-4" transform="translate(623.363076, 626.858881) rotate(-45.000000) translate(-623.363076, -626.858881) "></path>
+                    <path d="M-93.4126816,331.813194 L753.105518,331.914043" id="Line-2" transform="translate(329.846418, 331.863618) rotate(-45.000000) translate(-329.846418, -331.863618) "></path>
+                    <path d="M207.848479,634.551115 L1054.36668,634.651963" id="Line-2-Copy-5" transform="translate(631.107579, 634.601539) rotate(-45.000000) translate(-631.107579, -634.601539) "></path>
+                    <path d="M-85.6681787,339.555852 L760.850021,339.6567" id="Line-2" transform="translate(337.590921, 339.606276) rotate(-45.000000) translate(-337.590921, -339.606276) "></path>
+                    <path d="M215.592982,642.293773 L1062.11118,642.394621" id="Line-2-Copy-6" transform="translate(638.852082, 642.344197) rotate(-45.000000) translate(-638.852082, -642.344197) "></path>
+                    <path d="M-77.9236759,347.29851 L768.594524,347.399358" id="Line-2" transform="translate(345.335424, 347.348934) rotate(-45.000000) translate(-345.335424, -347.348934) "></path>
+                    <path d="M223.337485,650.036431 L1069.85568,650.137279" id="Line-2-Copy-7" transform="translate(646.596584, 650.086855) rotate(-45.000000) translate(-646.596584, -650.086855) "></path>
+                    <path d="M-70.1791731,355.041168 L776.339027,355.142016" id="Line-2" transform="translate(353.079927, 355.091592) rotate(-45.000000) translate(-353.079927, -355.091592) "></path>
+                    <path d="M231.081987,657.779088 L1077.60019,657.879936" id="Line-2-Copy-8" transform="translate(654.341087, 657.829512) rotate(-45.000000) translate(-654.341087, -657.829512) "></path>
+                    <path d="M-62.4346702,362.783826 L784.083529,362.884674" id="Line-2" transform="translate(360.824430, 362.834250) rotate(-45.000000) translate(-360.824430, -362.834250) "></path>
+                    <path d="M238.82649,665.521746 L1085.34469,665.622594" id="Line-2-Copy-9" transform="translate(662.085590, 665.572170) rotate(-45.000000) translate(-662.085590, -665.572170) "></path>
+                    <path d="M-54.6901674,370.526484 L791.828032,370.627332" id="Line-2" transform="translate(368.568932, 370.576908) rotate(-45.000000) translate(-368.568932, -370.576908) "></path>
+                    <path d="M246.570993,673.264404 L1093.08919,673.365252" id="Line-2-Copy-10" transform="translate(669.830093, 673.314828) rotate(-45.000000) translate(-669.830093, -673.314828) "></path>
+                    <path d="M-46.9456645,378.269141 L799.572535,378.369989" id="Line-2" transform="translate(376.313435, 378.319565) rotate(-45.000000) translate(-376.313435, -378.319565) "></path>
+                    <path d="M254.315496,681.007062 L1100.8337,681.10791" id="Line-2-Copy-11" transform="translate(677.574596, 681.057486) rotate(-45.000000) translate(-677.574596, -681.057486) "></path>
+                    <path d="M-39.2011617,386.011799 L807.317038,386.112647" id="Line-2" transform="translate(384.057938, 386.062223) rotate(-45.000000) translate(-384.057938, -386.062223) "></path>
+                    <path d="M262.059999,688.74972 L1108.5782,688.850568" id="Line-2-Copy-12" transform="translate(685.319099, 688.800144) rotate(-45.000000) translate(-685.319099, -688.800144) "></path>
+                    <path d="M-31.4566588,393.754457 L815.061541,393.855305" id="Line-2" transform="translate(391.802441, 393.804881) rotate(-45.000000) translate(-391.802441, -393.804881) "></path>
+                    <path d="M269.804502,696.492378 L1116.3227,696.593226" id="Line-2-Copy-13" transform="translate(693.063601, 696.542802) rotate(-45.000000) translate(-693.063601, -696.542802) "></path>
+                    <path d="M-23.712156,401.497115 L822.806044,401.597963" id="Line-2" transform="translate(399.546944, 401.547539) rotate(-45.000000) translate(-399.546944, -401.547539) "></path>
+                    <path d="M277.549005,704.235035 L1124.0672,704.335883" id="Line-2-Copy-14" transform="translate(700.808104, 704.285459) rotate(-45.000000) translate(-700.808104, -704.285459) "></path>
+                    <path d="M-15.9676532,409.239773 L830.550546,409.340621" id="Line-2" transform="translate(407.291447, 409.290197) rotate(-45.000000) translate(-407.291447, -409.290197) "></path>
+                    <path d="M285.293507,711.977693 L1131.81171,712.078541" id="Line-2-Copy-15" transform="translate(708.552607, 712.028117) rotate(-45.000000) translate(-708.552607, -712.028117) "></path>
+                    <path d="M-8.22315032,416.98243 L838.295049,417.083278" id="Line-2" transform="translate(415.035949, 417.032854) rotate(-45.000000) translate(-415.035949, -417.032854) "></path>
+                    <path d="M293.03801,719.720351 L1139.55621,719.821199" id="Line-2-Copy-16" transform="translate(716.297110, 719.770775) rotate(-45.000000) translate(-716.297110, -719.770775) "></path>
+                    <path d="M-0.478647481,424.725088 L846.039552,424.825936" id="Line-2" transform="translate(422.780452, 424.775512) rotate(-45.000000) translate(-422.780452, -424.775512) "></path>
+                    <path d="M300.782513,727.463009 L1147.30071,727.563857" id="Line-2-Copy-17" transform="translate(724.041613, 727.513433) rotate(-45.000000) translate(-724.041613, -727.513433) "></path>
+                    <path d="M7.26585536,432.467746 L853.784055,432.568594" id="Line-2" transform="translate(430.524955, 432.518170) rotate(-45.000000) translate(-430.524955, -432.518170) "></path>
+                    <path d="M308.527016,735.205667 L1155.04522,735.306515" id="Line-2-Copy-18" transform="translate(731.786116, 735.256091) rotate(-45.000000) translate(-731.786116, -735.256091) "></path>
+                    <path d="M15.0103582,440.210404 L861.528558,440.311252" id="Line-2" transform="translate(438.269458, 440.260828) rotate(-45.000000) translate(-438.269458, -440.260828) "></path>
+                    <path d="M316.271519,742.948324 L1162.78972,743.049172" id="Line-2-Copy-19" transform="translate(739.530619, 742.998748) rotate(-45.000000) translate(-739.530619, -742.998748) "></path>
+                    <path d="M22.754861,447.953062 L869.273061,448.05391" id="Line-2" transform="translate(446.013961, 448.003486) rotate(-45.000000) translate(-446.013961, -448.003486) "></path>
+                    <path d="M324.016022,750.690982 L1170.53422,750.79183" id="Line-2-Copy-20" transform="translate(747.275121, 750.741406) rotate(-45.000000) translate(-747.275121, -750.741406) "></path>
+                    <path d="M30.4993639,455.69572 L877.017563,455.796568" id="Line-2" transform="translate(453.758464, 455.746144) rotate(-45.000000) translate(-453.758464, -455.746144) "></path>
+                    <path d="M331.760524,758.43364 L1178.27872,758.534488" id="Line-2-Copy-21" transform="translate(755.019624, 758.484064) rotate(-45.000000) translate(-755.019624, -758.484064) "></path>
+                    <path d="M38.2438667,463.438377 L884.762066,463.539225" id="Line-2" transform="translate(461.502967, 463.488801) rotate(-45.000000) translate(-461.502967, -463.488801) "></path>
+                    <path d="M339.505027,766.176298 L1186.02323,766.277146" id="Line-2-Copy-22" transform="translate(762.764127, 766.226722) rotate(-45.000000) translate(-762.764127, -766.226722) "></path>
+                    <path d="M45.9883696,471.181035 L892.506569,471.281883" id="Line-2" transform="translate(469.247469, 471.231459) rotate(-45.000000) translate(-469.247469, -471.231459) "></path>
+                    <path d="M347.24953,773.918956 L1193.76773,774.019804" id="Line-2-Copy-23" transform="translate(770.508630, 773.969380) rotate(-45.000000) translate(-770.508630, -773.969380) "></path>
+                    <path d="M53.7328724,478.923693 L900.251072,479.024541" id="Line-2" transform="translate(476.991972, 478.974117) rotate(-45.000000) translate(-476.991972, -478.974117) "></path>
+                    <path d="M354.994033,781.661613 L1201.51223,781.762462" id="Line-2-Copy-24" transform="translate(778.253133, 781.712037) rotate(-45.000000) translate(-778.253133, -781.712037) "></path>
+                    <path d="M61.4773753,486.666351 L907.995575,486.767199" id="Line-2" transform="translate(484.736475, 486.716775) rotate(-45.000000) translate(-484.736475, -486.716775) "></path>
+                    <path d="M362.738536,789.404271 L1209.25674,789.505119" id="Line-2-Copy-25" transform="translate(785.997636, 789.454695) rotate(-45.000000) translate(-785.997636, -789.454695) "></path>
+                    <path d="M69.2218781,494.409009 L915.740078,494.509857" id="Line-2" transform="translate(492.480978, 494.459433) rotate(-45.000000) translate(-492.480978, -494.459433) "></path>
+                    <path d="M370.483039,797.146929 L1217.00124,797.247777" id="Line-2-Copy-26" transform="translate(793.742138, 797.197353) rotate(-45.000000) translate(-793.742138, -797.197353) "></path>
+                    <path d="M76.9663809,502.151666 L923.484581,502.252514" id="Line-2" transform="translate(500.225481, 502.202090) rotate(-45.000000) translate(-500.225481, -502.202090) "></path>
+                    <path d="M378.227541,804.889587 L1224.74574,804.990435" id="Line-2-Copy-27" transform="translate(801.486641, 804.940011) rotate(-45.000000) translate(-801.486641, -804.940011) "></path>
+                    <path d="M84.7108838,509.894324 L931.229083,509.995172" id="Line-2" transform="translate(507.969984, 509.944748) rotate(-45.000000) translate(-507.969984, -509.944748) "></path>
+                    <path d="M385.972044,812.632245 L1232.49024,812.733093" id="Line-2-Copy-28" transform="translate(809.231144, 812.682669) rotate(-45.000000) translate(-809.231144, -812.682669) "></path>
+                    <path d="M92.4553866,517.636982 L938.973586,517.73783" id="Line-2" transform="translate(515.714486, 517.687406) rotate(-45.000000) translate(-515.714486, -517.687406) "></path>
+                    <path d="M393.716547,820.374903 L1240.23475,820.475751" id="Line-2-Copy-29" transform="translate(816.975647, 820.425327) rotate(-45.000000) translate(-816.975647, -820.425327) "></path>
+                    <path d="M100.199889,525.37964 L946.718089,525.480488" id="Line-2" transform="translate(523.458989, 525.430064) rotate(-45.000000) translate(-523.458989, -525.430064) "></path>
+                    <path d="M401.46105,828.11756 L1247.97925,828.218408" id="Line-2-Copy-30" transform="translate(824.720150, 828.167984) rotate(-45.000000) translate(-824.720150, -828.167984) "></path>
+                    <path d="M107.944392,533.122298 L954.462592,533.223146" id="Line-2" transform="translate(531.203492, 533.172722) rotate(-45.000000) translate(-531.203492, -533.172722) "></path>
+                    <path d="M409.205553,835.860218 L1255.72375,835.961066" id="Line-2-Copy-31" transform="translate(832.464653, 835.910642) rotate(-45.000000) translate(-832.464653, -835.910642) "></path>
+                    <path d="M115.688895,540.864955 L962.207095,540.965803" id="Line-2" transform="translate(538.947995, 540.915379) rotate(-45.000000) translate(-538.947995, -540.915379) "></path>
+                    <path d="M416.950056,843.602876 L1263.46826,843.703724" id="Line-2-Copy-32" transform="translate(840.209155, 843.653300) rotate(-45.000000) translate(-840.209155, -843.653300) "></path>
+                    <path d="M123.433398,548.607613 L969.951598,548.708461" id="Line-2" transform="translate(546.692498, 548.658037) rotate(-45.000000) translate(-546.692498, -548.658037) "></path>
+                    <path d="M424.694559,851.345534 L1271.21276,851.446382" id="Line-2-Copy-33" transform="translate(847.953658, 851.395958) rotate(-45.000000) translate(-847.953658, -851.395958) "></path>
+                    <path d="M131.177901,556.350271 L977.6961,556.451119" id="Line-2" transform="translate(554.437001, 556.400695) rotate(-45.000000) translate(-554.437001, -556.400695) "></path>
+                    <path d="M432.439061,859.088192 L1278.95726,859.18904" id="Line-2-Copy-34" transform="translate(855.698161, 859.138616) rotate(-45.000000) translate(-855.698161, -859.138616) "></path>
+                    <path d="M138.922404,564.092929 L985.440603,564.193777" id="Line-2" transform="translate(562.181503, 564.143353) rotate(-45.000000) translate(-562.181503, -564.143353) "></path>
+                    <path d="M440.183564,866.830849 L1286.70176,866.931697" id="Line-2-Copy-35" transform="translate(863.442664, 866.881273) rotate(-45.000000) translate(-863.442664, -866.881273) "></path>
+                    <path d="M146.666907,571.835587 L993.185106,571.936435" id="Line-2" transform="translate(569.926006, 571.886011) rotate(-45.000000) translate(-569.926006, -571.886011) "></path>
+                    <path d="M447.928067,874.573507 L1294.44627,874.674355" id="Line-2-Copy-36" transform="translate(871.187167, 874.623931) rotate(-45.000000) translate(-871.187167, -874.623931) "></path>
+                    <path d="M154.411409,579.578245 L1000.92961,579.679093" id="Line-2" transform="translate(577.670509, 579.628669) rotate(-45.000000) translate(-577.670509, -579.628669) "></path>
+                    <path d="M455.67257,882.316165 L1302.19077,882.417013" id="Line-2-Copy-37" transform="translate(878.931670, 882.366589) rotate(-45.000000) translate(-878.931670, -882.366589) "></path>
+                    <path d="M162.155912,587.320902 L1008.67411,587.42175" id="Line-2" transform="translate(585.415012, 587.371326) rotate(-45.000000) translate(-585.415012, -587.371326) "></path>
+                    <path d="M463.417073,890.058823 L1309.93527,890.159671" id="Line-2-Copy-38" transform="translate(886.676173, 890.109247) rotate(-45.000000) translate(-886.676173, -890.109247) "></path>
+                    <path d="M169.900415,595.06356 L1016.41861,595.164408" id="Line-2" transform="translate(593.159515, 595.113984) rotate(-45.000000) translate(-593.159515, -595.113984) "></path>
+                    <path d="M471.161576,897.801481 L1317.67978,897.902329" id="Line-2-Copy-39" transform="translate(894.420675, 897.851905) rotate(-45.000000) translate(-894.420675, -897.851905) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

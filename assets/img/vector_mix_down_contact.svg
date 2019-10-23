@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1442px" height="200px" viewBox="0 0 1442 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>vector_mix_down_contact</title>
+    <desc>Created with Sketch.</desc>
+    <g id="vector_mix_down_contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="7" width="1442" height="193"></rect>
+            <g id="corva_#00FFC9_down" transform="translate(2.000000, 0.000000)" fill="#00FFC9">
+                <path d="M0,0 C86.3020833,86.2558626 260.143229,129.383794 521.523438,129.383794 C782.903646,129.383794 1089.0625,86.2558626 1440,0 L1440,200 L0,200 L0,0 Z" id="Path-2-Copy" transform="translate(720.000000, 100.000000) rotate(-180.000000) translate(-720.000000, -100.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
