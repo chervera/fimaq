@@ -120,7 +120,7 @@
         .to(shape16, .03, {
             autoAlpha: 0
         })
-        .to(shape_button, .1, {
+        .to(shape_button, .03, {
             autoAlpha: 1
         })
 
@@ -132,7 +132,7 @@
     //}, .1);
 
     //--------- trigger gotes
-    var scgotes = new ScrollMagic.Scene({
+    var tmgotes = new ScrollMagic.Scene({
             triggerElement: '#idcat',
             triggerHook: 0.3,
             reverse: false
@@ -144,8 +144,17 @@
             colorTrigger: '#000',
             colorStart: '#f0f',
         })
-    
-    
-    
+
+
+
+    $('.scrollTo').click(function () {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 500);
+        return false;
+    });
+
+
+
 
 })();
