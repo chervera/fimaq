@@ -8,7 +8,7 @@
 
     <title>Servei de post-venta en maquinària de neteja</title>
     <meta name="description" content="Venta, reparació, manteniment, rènting i lloguer de fregadores, escombradores, aspiradores, rotatives i màquines d'aigua a pressió">
-    <meta name="keywords" content="maquinària, industrial, neteja, llimpiesa, fimaq, importació, venda, renting, lloguer, post venda "/>
+    <meta name="keywords" content="maquinària, industrial, neteja, llimpiesa, fimaq, importació, venda, renting, lloguer, post venda " />
     <meta name="author" content="JesusPalau+CarlesHervera">
 
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -97,7 +97,7 @@
             </a>
         </div>
     </section>
-    <section id="service-cleaner" class="section service-cleaner">
+    <!--<section id="service-cleaner" class="section service-cleaner">
         <div class="services-cleaner__container">
             <span class="cleaner__title">Importador de les marques:</span>
             <span class="cleaner__desc">FIMAP</span>
@@ -108,6 +108,19 @@
             <div id="aspirador"></div>
             <div id="terra"></div>
             <div id="fons-verd"></div>
+        </div>
+    </section>-->
+    <section id="service-cleaner" class="section service-cleaner">
+        <div class="text_blur">
+            <div class="mask-container">
+                <div class="aspiradora" id="aspiradora"></div>
+               
+                <div class="img_mask" id="polygon"></div>
+                <!--<div class="img_mask" id="clipped-image"></div>
+                <svg>
+                        <polygon id="polygon" points="00% 0%, 50% 0%, 50% 100%, 0% 100%" object-fit="cover" width="100%" height="331px"></polygon>
+                </svg>-->
+            </div>
         </div>
     </section>
     <section class="section hightlights">
@@ -156,8 +169,26 @@
         (function() {
             const serveis_active = true;
         })();
+
     </script>
-    <script src="assets/js/scripts.js"></script>
+<script src="assets/js/scripts.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/ScrollToPlugin.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.min.js"></script>
+
+
+    <script src="assets/js/gsap.js"></script>
 </body>
 
 </html>

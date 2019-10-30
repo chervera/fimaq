@@ -1,2 +1,0 @@
-# fimaq
-fimaq website

@@ -132,6 +132,7 @@
     //}, .1);
 
     //--------- trigger gotes
+    if(document.getElementById('idcat')){
     var tmgotes = new ScrollMagic.Scene({
             triggerElement: '#idcat',
             triggerHook: 0.3,
@@ -144,15 +145,30 @@
             colorTrigger: '#000',
             colorStart: '#f0f',
         })
+    
+    }
+    
+    
+    
+    
+    //Init ScrollMagic
+    var aspiradora = $(".aspiradora");
 
-
-
+    
+        
     $('.scrollTo').click(function () {
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top
         }, 500);
         return false;
     });
+
+    //const cImage = document.getElementById('clipped-image');
+    const $cImg = $('#clipped-image');
+    const $body = $('body');
+
+
+
 
 
 

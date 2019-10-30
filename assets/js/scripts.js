@@ -18,7 +18,7 @@
     const homepageSectionSize = homepageSection.clientHeight;
     const serviceCleanerSectionSize = serviceCleanerSection && serviceCleanerSection.clientHeight;
     const serviceCleanerSectionTop = serviceCleanerSection && serviceCleanerSection.offsetTop;
-    const MARGIN_TO_START_MOVEMENT = window.innerHeight < window.innerWidth ? window.innerHeight : (window.innerWidth * 0.5);
+    const MARGIN_TO_START_MOVEMENT = window.innerHeight < window.innerWidth ? -50 : -200;
 
     const init = () => {
         menuButton.addEventListener('click', function (event) {
@@ -35,6 +35,9 @@
             if (!ticking) {
                 window.requestAnimationFrame(function () {
                     checkSections(last_known_scroll_position, isMenuVisible);
+                    if(document.getElementById('img_mask')){
+                        checkImgMaskAspirador(last_known_scroll_position);
+                    }
                     ticking = false;
                 });
             }
@@ -49,7 +52,8 @@
 
     const checkSections = (last_known_scroll_position, isMenuVisible) => {
         checkMenu(last_known_scroll_position, isMenuVisible);
-        serviceCleanerSection && checkServeis(last_known_scroll_position);
+        //serviceCleanerSection && checkServeis(last_known_scroll_position);
+        serviceCleanerSection && checkImgMaskAspirador(last_known_scroll_position)
     };
 
     const checkMenu = (scrollPos, isMenuVisible) => {
@@ -66,18 +70,22 @@
         }
     }
 
-    const checkServeis = (scrollPos) => {
-        /*console.log('---');
-        console.log(MARGIN_TO_START_MOVEMENT);
-        console.log(scrollPos);
-        console.log(`scrollPos[${scrollPos}] > [${serviceCleanerSectionTop-MARGIN_TO_START_MOVEMENT}](serviceCleanerSectionTop[${serviceCleanerSectionTop}] - MARGIN[${MARGIN_TO_START_MOVEMENT}])`);*/
-        if (scrollPos > (serviceCleanerSectionTop - MARGIN_TO_START_MOVEMENT) && scrollPos < ((serviceCleanerSectionTop - MARGIN_TO_START_MOVEMENT) + serviceCleanerSectionSize)) {
-            let computedLeft = scrollPos - serviceCleanerSectionTop + MARGIN_TO_START_MOVEMENT;
-            aspirador.style.left = computedLeft + 'px';
-            terra.style.left = computedLeft + 'px';
-            console.log('left:' + computedLeft);
+    const checkImgMaskAspirador = (scrollPos) =>{
+        const mask = document.getElementById('polygon');
+        const aspiradora = document.getElementById('aspiradora');
+        //console.log(`scrollPos[${scrollPos}] > [${serviceCleanerSectionTop+MARGIN_TO_START_MOVEMENT}]`);
+        const isScrollInside = scrollPos > (serviceCleanerSectionTop + MARGIN_TO_START_MOVEMENT);
+        const isScrollBeside = scrollPos > (serviceCleanerSectionTop + serviceCleanerSectionSize + MARGIN_TO_START_MOVEMENT);
+        if(isScrollInside && !isScrollBeside){
+            mask.classList.add('open');
+            aspiradora.classList.add('open');
         }
-    }
+
+        if(isScrollBeside){
+            mask.classList.remove('open');
+            aspiradora.classList.remove('open');
+        }
+    };
 
     const initMap = () => {
         google.maps.event.addDomListener(window, 'load', function () {
